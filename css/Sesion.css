@@ -1,0 +1,86 @@
+#login-form {
+    padding: 20px;
+    width: 300px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+#login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+/* Estilos de los campos de texto con los iconos */
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-container label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px 0; /* Quita el relleno superior e inferior */
+    border: none; /* Sin borde */
+    border-bottom: 2px solid white; /* Línea inferior blanca */
+    background-color: transparent;
+    font-size: 14px;
+    outline: none;
+    color: white; 
+    padding-right: 40px; /* Espacio para el ícono a la derecha */
+}
+
+.input-container .input-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; /* Tamaño del ícono */
+    height: 20px;
+}
+
+.forgot-password {
+    display: block;
+    margin: 10px 0;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Botón de enviar */
+#login-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#login-button:hover {
+    background-color: #444;
+}
+
+.register-text {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.register-text a {
+    color: white;
+    text-decoration: underline;
+}
+#login-container h1 {
+    margin-bottom: 20px;
+}
